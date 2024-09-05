@@ -1,0 +1,70 @@
+.hero {
+    background-color:#009BD9;
+}
+
+
+@media (max-width: 768px) {
+    /* 当屏幕宽度小于 992px 时隐藏 */
+    .cloud:nth-child(2) {
+        display: none;
+    }    
+    .img-flex {
+        display: none !important;
+    }    
+}
+h1 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.img-flex{
+    display: flex;
+    align-items: flex-end;
+}
+  
+.tree-img{
+    margin-bottom: -39px;
+}
+
+.pipeline-image{
+    height: 80px;
+}
+
+h2 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+h3 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+
+.floor {
+    width: 100%;
+    height: 50px; /* 根据需要调整地板高度 */
+    background-image: url('./img/ground.png');
+    background-repeat: repeat-x; /* 水平方向重复 */
+    background-size: contain; /* 保证地板砖块不会变形 */
+}
+
+.card{
+    border: 0px;
+}
+
+.icon-square{
+    border-radius: 5rem;
+}
+
+.footer{
+    background-color:#009BD9;
+}
